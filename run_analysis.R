@@ -66,4 +66,4 @@ removeperiods <- gsub("\\.","",names(summarydata))
 removedupbody <- gsub("BodyBody", "Body", removeperiods)
 names(summarydata) <- removedupbody
 
-write.table(summarydata, "tidydata.txt")
+write.table(summarydata, "tidydata.txt", row.name = FALSE)
