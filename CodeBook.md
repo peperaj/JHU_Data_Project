@@ -42,6 +42,16 @@ mean or std: indicates whether the variable represents the mean or the standard 
 (optional) X or Y or Z: indicates which dimension the variable reading corresponds to (fields without an X, Y, or Z correspond to the magnitude measures
 		that calculate a Euclidean norm based on all 3 dimensional readings)
 
+testsubject: the subject - numbered 1 to 30 - from which measurements were taken
+
+activityname: activity being performed while measurements taken (WALKING
+, WALKING_UPSTAIRS
+, WALKING_DOWNSTAIRS
+, SITTING
+, STANDING
+, LAYING
+)
+
 
 tidydata.txt includes the following columns:
 
